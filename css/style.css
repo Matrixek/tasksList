@@ -1,0 +1,40 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ededed;
+}
+
+.container {
+    max-width: 900px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 20px 0px rgba(66, 68, 90, 1);
+}
+
+.main {
+    display: block;
+}
+
+.buttons__button {
+    background: transparent;
+    color: teal;
+    border: none;
+    margin: 0 0 0 20px;
+    transition: color 0.3s;
+}
+
+.buttons__button:disabled {
+    color: #ccc;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
