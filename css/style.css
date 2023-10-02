@@ -38,3 +38,12 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media (max-width: 767px) {
+    .buttons__button{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
